@@ -11,10 +11,24 @@ body {
   background-position: top center;
 }
 
-.container {
-  max-width: 928px;
-  margin: 0 auto;
-  padding: 0 16px;
+.page-footer .copyright {
+  float: right;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.page-footer .container {
+  float: left;
+}
+
+.page-footer .container img{
+  margin-right: 0.5em;
+
+  vertical-align: middle;
+
+  border: 2px solid white;
+  box-shadow: 0 0 4px #c0392b;
+  transform: rotate(-5deg);
 }
 
 .page-header {
